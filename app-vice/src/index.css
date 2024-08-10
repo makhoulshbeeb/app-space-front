@@ -2,7 +2,8 @@
   --button-color: #50C5D8;
   --background-color: #002B52;
   --background-light: #D8D2ED  ;
-  --shadow-color: rgba(255,255,255, 0.2);
+  --shadow-color:  rgba(0,0,0,0.2); 
+  --shadow-light: rgba(255,255,255, 0.2);
   --primary-color: #4B3577;
   --secondary-color: #223063;
   --text-color: #fff;
