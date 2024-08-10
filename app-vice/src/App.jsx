@@ -1,7 +1,16 @@
 import "./App.css";
-import Auth from "./pages/auth";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Login from "./pages/Login";
+import AboutUs from "./pages/AboutUs";
 function App() {
-  return <Auth />;
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/about_us" element={<AboutUs />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;

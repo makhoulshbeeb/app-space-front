@@ -1,4 +1,4 @@
-body {
+.body {
   background-color: var(--primary-color);
   overflow: hidden;
   display: flex;
@@ -43,9 +43,9 @@ body {
   display: flex;
   flex-direction: column;
   width: 40%;
-  background: rgba(255, 255, 255, 0.2); 
+  background: rgba(255, 255, 255, 0.2);
   border: 2px solid rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(10px); 
+  backdrop-filter: blur(10px);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   color: #fff;
   border-radius: 10px;
@@ -106,9 +106,9 @@ body {
 .checkbox label {
   margin: 0;
 }
-.checkbox input{
-    background-color: transparent;
-    border: 2px solid white;
+.checkbox input {
+  background-color: transparent;
+  border: 2px solid white;
 }
 .checking {
   display: flex;
@@ -125,7 +125,6 @@ body {
   margin-top: 2rem;
   height: 35px;
   font-size: 1rem;
-  
 }
 .span {
   color: var(--background-color);

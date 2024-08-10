@@ -1,0 +1,61 @@
+.about_body {
+  background: linear-gradient(
+    to bottom,
+    var(--background-color),
+    var(--primary-color)
+  );
+}
+
+.about_container {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 3rem;
+}
+
+.h2 {
+  padding-top: 5rem;
+  margin-left: 3rem;
+  color: var(--button-color);
+}
+.about_card {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: space-between;
+  height: 400px;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+
+.missions {
+  width: 50%;
+}
+.mission_text {
+  margin-left: 3rem;
+  margin-top: 1rem;
+  color: white;
+}
+
+.story_text {
+  margin-right: 3rem;
+  margin-top: 1rem;
+  color: white;
+}
+.mission_h2 {
+  padding-top: 3rem;
+  margin-left: 3rem;
+  color: var(--button-color);
+}
+.story_h2 {
+  padding-top: 3rem;
+  margin-right: 3rem;
+  color: var(--button-color);
+}
+.image_about {
+  height: 400px;
+  
+}

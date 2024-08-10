@@ -2,13 +2,11 @@ import React from "react";
 import "./style.css";
 import image from "../../image/bg_image.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUser, faLock } from "@fortawesome/free-solid-svg-icons"; // Import the specific icon
-
-const Auth = () => {
+import { faUser, faLock } from "@fortawesome/free-solid-svg-icons";
+const Login = () => {
   return (
-    <>
+    <div className="body">
       <div className="animated-circle"></div>
-
       <div className="auth_container">
         <div className="image_container">
           <img src={image} className="image" alt="background" />
@@ -44,8 +42,8 @@ const Auth = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
-export default Auth;
+export default Login;
