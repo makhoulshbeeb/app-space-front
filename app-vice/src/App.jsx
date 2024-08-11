@@ -17,6 +17,7 @@ function App() {
 
         <Route path="/landing-page" element={<Landing />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

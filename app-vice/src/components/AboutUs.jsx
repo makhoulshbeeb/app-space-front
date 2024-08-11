@@ -1,6 +1,7 @@
 import React from "react";
 import image from "../image/mission.png";
 import "./styles/AboutUs.css";
+import Footer from "./Footer";
 const AboutUs = () => {
   return (
     <div className="about_body">
@@ -41,7 +42,9 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
+   
   );
 };
 export default AboutUs;
