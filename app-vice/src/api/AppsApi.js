@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 export const appsApi = createApi({
     reducerPath: 'appsApi',
     baseQuery: fetchBaseQuery({ 
-      baseUrl: 'http://localhost:5000/' ,
+      baseUrl: 'http://localhost:5000/api' ,
       headers: {
       'Authorization' : `Bearer ${sessionStorage.getItem('token')}`,
       'Content-Type' : 'application/json'
@@ -18,14 +18,21 @@ export const appsApi = createApi({
             : ['App'],
       }),
       getAppById: builder.query({
-        query:({appname})=>`apps/${appname}`,
+        query:({id})=>`apps/${id}`,
         providesTags: (result, error, arg) =>
           result
             ? [...result.map(({ id }) => ({ type: 'App', id })), 'App']
             : ['App'],
       }),
       getAppsByCategory: builder.query({
-        query:({category})=>`apps/${category}`,
+        query:({category})=>`apps/category/${category}`,
+        providesTags: (result, error, arg) =>
+          result
+            ? [...result.map(({ id }) => ({ type: 'App', id })), 'App']
+            : ['App'],
+      }),
+      getAppsBySearch: builder.query({
+        query:({search})=>`apps/search/${search}`,
         providesTags: (result, error, arg) =>
           result
             ? [...result.map(({ id }) => ({ type: 'App', id })), 'App']
