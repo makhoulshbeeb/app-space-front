@@ -1,10 +1,13 @@
 import "./styles/AppList.css";
 import img from "../image/clash.png";
 import { useRef } from "react";
-function AppList({title="Trending Apps", name = "App One" , apps=[]}) {
+function AppList({title="Trending Apps" , apps=[]}) {
    apps = [
     { name: "App One", image: "../../image/clash.png" },
     { name: "App Two", image: "../../image/clash.png" },
+    { name: "App Three", image: "../../image/clash.png" },
+    { name: "App Three", image: "../../image/clash.png" },
+    { name: "App Three", image: "../../image/clash.png" },
     { name: "App Three", image: "../../image/clash.png" },
     { name: "App Three", image: "../../image/clash.png" },
     { name: "App Three", image: "../../image/clash.png" },

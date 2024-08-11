@@ -5,9 +5,9 @@ function Discover() {
   return (
     <>
     <div className="title">wondering which app to use?</div>
-    <AppList/>
-    <AppList/>
-    <AppList/>
+    <AppList title="Trending Apps"/>
+    <AppList title="Featured Apps"/>
+    <AppList title="Apps you’ll love"/>
     <CategotiesList/>
     </>
   )
