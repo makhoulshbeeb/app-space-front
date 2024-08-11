@@ -30,7 +30,7 @@ const Login = () => {
         </div>
         <div className="auth_form">
           <p className="auth_title">Log In</p>
-          <form onSubmit={handleLogin}>
+          <form onSubmit={handleLogin} className="login-form">
             <label>Email</label>
             <div className="input-container">
               <FontAwesomeIcon icon={faUser} className="icon" />
@@ -64,7 +64,7 @@ const Login = () => {
                 <p>Forgot password?</p>
               </div>
             </div>
-            <button type="submit" className="login-button" disabled={isLoading}>
+            <button type="submit" className="login_button" disabled={isLoading}>
               {isLoading ? "Logging in..." : "Login"}
             </button>
           </form>
