@@ -5,7 +5,6 @@ function CategotiesList() {
   const scrollRef = useRef();
   const appList = useRef();
 
-
   return (
     <div className="container">
       <div className="text">

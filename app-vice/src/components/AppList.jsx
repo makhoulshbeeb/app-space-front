@@ -1,6 +1,6 @@
 import "./styles/AppList.css";
 import img from "../image/clash.png";
-function AppList({title="Trending Apps" , apps=[]}) {
+function  AppList({title="Trending Apps" , apps=[]}) {
    apps = [
     { name: "App One", image: "../../image/clash.png" },
     { name: "App Two", image: "../../image/clash.png" },
