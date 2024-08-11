@@ -1,13 +1,14 @@
 import React from "react";
 import "./styles/LandingPage.css";
 import { FaSearch } from "react-icons/fa";
-import AppLogo from "../../image/AppLogo.svg";
+import AppLogo from "../image/logo.png";
 
 const LandingPage = () => {
   return (
     <div className="background">
+       
       <div className="landing-page">
-        <div>
+        
           <div className="navbar-container">
             <nav className="navbar">
               <div className="logo-li">
@@ -30,15 +31,6 @@ const LandingPage = () => {
           </div>
 
           <div className="text-section">
-            <div className="explore-txt">
-              <h1 className="explore">
-                Explore
-                <br />
-                Innovate
-                <br />
-                Succeed
-              </h1>
-            </div>
             <div>
               <p className="subtitle">
                 You’ve Reached the Right <br /> Place to{" "}
@@ -59,9 +51,9 @@ const LandingPage = () => {
         </div>
         <div className="image-section"></div>
 
-        <footer className="footer"></footer>
+       
       </div>
-    </div>
+    
   );
 };
 
