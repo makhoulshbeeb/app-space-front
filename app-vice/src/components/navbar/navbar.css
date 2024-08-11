@@ -1,22 +1,28 @@
-/* navbar.css */
 
 .navbar-container {
   display: flex;
   justify-content: center;
-  background-color: #1f2b3a; /* Full-width background color */
-  padding: 20px 20px; /* Vertical padding to create space around the navbar */
+  background-color: var(--background-color); 
+  padding: 20px 20px;
 }
+
 
 .navbar {
   width: 100%;
-  max-width: 1200px; /* Maximum width of the navbar */
+  max-width: 1200px; 
   padding: 10px 40px;
-  background: linear-gradient(90deg, #1f2b3a 0%, #273a55 100%);
-  border-radius: 8px;
+  background: rgba(31, 43, 58, 0); 
+  backdrop-filter: blur(30px); 
+  border-radius: 12px; 
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+  position: relative; 
+  z-index: 1000; 
+  height: 70px;
 }
+
 
 .logo img {
   height: 20px;
