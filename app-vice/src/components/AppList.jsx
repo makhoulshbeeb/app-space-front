@@ -1,6 +1,5 @@
 import "./styles/AppList.css";
 import img from "../image/clash.png";
-import { useRef } from "react";
 function AppList({title="Trending Apps" , apps=[]}) {
    apps = [
     { name: "App One", image: "../../image/clash.png" },
