@@ -3,9 +3,10 @@ import "./styles/Login.css";
 import image from "../image/bg_image.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faLock } from "@fortawesome/free-solid-svg-icons";
+
 const Login = () => {
   return (
-    <div className="body">
+    <div className="login-body">
       <div className="animated-circle"></div>
       <div className="auth_container">
         <div className="image_container">

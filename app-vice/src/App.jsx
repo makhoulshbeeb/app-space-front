@@ -12,7 +12,7 @@ function App() {
         <Route path="/about_us" element={<AboutUs />} />
         <Route path="/contact_us" element={<ContactUs />} />
       </Routes>
-      <Footer />
+  
     </Router>
   );
 }
