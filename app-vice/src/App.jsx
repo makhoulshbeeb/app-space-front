@@ -1,5 +1,5 @@
 import "./App.css";
-import Discover from "./pages/Discover";
+import Discover from "./components/Discover";
 function App() {
   return <Discover/>
 }

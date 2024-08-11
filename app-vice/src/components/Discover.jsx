@@ -1,6 +1,6 @@
-import AppList from "../components/AppList.jsx";
-import CategotiesList from "../components/CategoriesList.jsx";
-import "./Discover.css"
+import AppList from "./AppList.jsx";
+import CategotiesList from "./CategoriesList.jsx";
+import "./styles/Discover.css"
 function Discover() {
   return (
     <>
