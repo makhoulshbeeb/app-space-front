@@ -1,6 +1,6 @@
 import React from "react";
-import "./style.css";
-import image from "../../image/bg_image.png";
+import "./styles/Login.css";
+import image from "../image/bg_image.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faLock } from "@fortawesome/free-solid-svg-icons";
 const Login = () => {

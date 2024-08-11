@@ -1,6 +1,6 @@
 import React from "react";
-import image from "../../image/mission.png";
-import "./style.css";
+import image from "../image/mission.png";
+import "./styles/AboutUs.css";
 const AboutUs = () => {
   return (
     <div className="about_body">
