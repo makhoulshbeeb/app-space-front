@@ -1,4 +1,4 @@
-import "./navbar.css";
+import "./styles/Navbar.css"
 import { FaSearch } from "react-icons/fa";
 
 const Navbar = () => {

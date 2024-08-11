@@ -5,9 +5,13 @@ import AboutUs from "./components/AboutUs";
 import Footer from "./components/Footer";
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <Router>
+    <Routes>
+      <Route path="/" element={<Login />} />
+      <Route path="/about_us" element={<AboutUs />} />
+    </Routes>
+    <Footer />
+  </Router>
   );
 }
 
