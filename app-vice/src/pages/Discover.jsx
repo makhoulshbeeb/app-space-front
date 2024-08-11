@@ -1,6 +1,6 @@
 import AppList from "../components/AppList.jsx";
 import CategotiesList from "../components/CategoriesList.jsx";
-import "./Discove.css"
+import "./Discover.css"
 function Discover() {
   return (
     <>
