@@ -89,14 +89,14 @@
   margin-top: 30px;
 }
 
-.footer {
+/* .footer {
   width: 100%;
   padding: 20px;
   text-align: center;
   background-color: #1c0b2d;
   position: absolute;
   bottom: 0;
-}
+} */
 
 .navbar-container {
   display: flex;
@@ -191,9 +191,9 @@
   background-color: #6a1bb3;
 }
 
-.logo {
+/* .logo {
   margin-right: 50px;
-}
+} */
 
 .logo-li {
   display: flex;

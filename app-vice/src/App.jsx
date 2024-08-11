@@ -17,7 +17,7 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/landing-page" element={<Landing />} />
       </Routes>
-      {/* <Footer /> */}
+  
     </Router>
   );
 }

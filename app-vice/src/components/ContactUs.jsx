@@ -1,8 +1,9 @@
 import React from 'react';
 import './styles/ContactUs.css';
-
+import Footer from './Footer';
 const ContactUs = () => {
   return (
+    <>
     <div className="contact-us-container">
       <div className="contact-content">
         <div className="contact-illustration-text">
@@ -34,7 +35,10 @@ const ContactUs = () => {
           </div>
         </form>
       </div>
+      <Footer />
     </div>
+    
+    </>
   );
 };
 
