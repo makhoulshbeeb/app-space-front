@@ -9,7 +9,6 @@
     justify-content: flex-start;
     overflow-x: scroll;
     scrollbar-width: none; /* For Firefox */
-
   }
   .app-list-container::-webkit-scrollbar{
     display: none;
@@ -25,6 +24,7 @@
     display: flex;
     flex-direction: row;
     margin-top: 30px;
+
   }
   
   .app-item {
@@ -34,8 +34,8 @@
   }
   
   .app-image {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     border-radius: 15px;
   }
@@ -52,7 +52,6 @@
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
-
     color: white;
     display: flex;
     justify-content: space-between;
@@ -82,4 +81,8 @@
 
   .container {
     height: 200px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 130px;
   }

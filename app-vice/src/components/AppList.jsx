@@ -1,7 +1,7 @@
-import "./style.css";
-import img from "../../image/clash.png";
-import { useEffect, useRef } from "react";
-function AppList({name = "App One" , apps=[]}) {
+import "./styles/AppList.css";
+import img from "../image/clash.png";
+import { useRef } from "react";
+function AppList({title="Trending Apps", name = "App One" , apps=[]}) {
    apps = [
     { name: "App One", image: "../../image/clash.png" },
     { name: "App Two", image: "../../image/clash.png" },
@@ -27,7 +27,7 @@ function AppList({name = "App One" , apps=[]}) {
   return (
     <div className="container">
       <div className="text">
-        <h3 ref={textRef}>Trending Apps</h3>
+        <h3 ref={textRef}>{title}</h3>
         <p>Show All</p>
       </div>
       <div className="app-list-container" ref={scrollRef}>

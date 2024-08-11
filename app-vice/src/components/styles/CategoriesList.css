@@ -1,0 +1,48 @@
+svg{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #D8D2ED;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.3s;
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+
+}
+
+svg:hover path {
+    fill: #D8D2ED;
+}
+
+svg:hover {
+    background-color: #857f9d;
+}
+
+.category-list {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body{
+    display:block;
+}
+
+
+.category-list-container {
+    margin-left: 50px;
+    margin-right: 50px;
+    transition: 0.3s;
+    color: white;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    scrollbar-width: none; /* For Firefox */
+  }
