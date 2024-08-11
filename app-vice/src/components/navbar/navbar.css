@@ -1,0 +1,97 @@
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  background-color: var(--background-color); 
+  padding: 20px 20px;
+}
+
+
+.navbar {
+  width: 100%;
+  max-width: 1200px; 
+  padding: 10px 40px;
+  background: rgba(31, 43, 58, 0); 
+  backdrop-filter: blur(30px); 
+  border-radius: 12px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+  position: relative; 
+  z-index: 1000; 
+  height: 70px;
+}
+
+
+.logo img {
+  height: 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-links li:hover {
+  color: #00d8ff;
+}
+
+.search-login-signup {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.search-icon {
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.search-icon:hover {
+  color: #00d8ff;
+}
+
+.login-button,
+.signup-button {
+  padding: 8px 16px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-button {
+  background-color: transparent;
+  color: #ffffff;
+  border-color: #8a2be2;
+}
+
+.login-button:hover {
+  background-color: #8a2be2;
+  color: #ffffff;
+}
+
+.signup-button {
+  background-color: #8a2be2;
+  color: #ffffff;
+}
+
+.signup-button:hover {
+  background-color: #6a1bb3;
+}
