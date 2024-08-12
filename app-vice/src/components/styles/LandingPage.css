@@ -2,7 +2,7 @@
   background-image: url("../../image/Maskgroup.svg"),
     url("../../image/Purpleimglanding\ 1.svg");
 
-  background-size: 70% 150%, cover;
+  background-size:  100%, cover;
 
   background-repeat: no-repeat, no-repeat;
  
@@ -35,20 +35,41 @@
 }
 
 .explore {
-  font-size: 35px;
+  font-size: 70px;
   font-weight: bold;
   line-height: 1.2;
-  color: #b97ad1;
+  color: #51E7D2;
+}
+.innovate {
+ 
+  font-size: 70px;
 }
 
+.succeed{
+  font-size: 70px;
+}
+.explore-sec{
+  margin-top: 10em;
+  align-items: center;
+  justify-content: center;
+}
 .subtitle {
-  margin-top: 20px;
-  font-size: 24px;
+
+   margin-top: 10em;
+  font-size: 35px;
   color: white;
 }
 
 .highlight {
-  color: #00f0ff;
+  
+  background: linear-gradient(90deg, #55E0F7, #9333EA,#55E0F7
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+.indent{
+  padding: 80px;
 }
 
 .description {

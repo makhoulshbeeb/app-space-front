@@ -12,6 +12,13 @@ const LandingPage = () => {
       <div className="landing-page">
         <div className="text-section">
           <div>
+          <div className="explore-sec">
+            <p>
+              <span className="explore">Explore</span>
+            </p>
+            <p className="innovate">Innovate</p>
+            <p className="succeed">Succeed</p>
+          </div>
             <p className="subtitle">
               You’ve Reached the Right <br /> Place to{" "}
               <span className="highlight">
@@ -19,6 +26,8 @@ const LandingPage = () => {
               </span>
             </p>
           </div>
+         
+          
           <div>
             <p className="description">
               Our AI-powered platform offers expert insights <br /> {"  "} and
@@ -26,9 +35,13 @@ const LandingPage = () => {
               <br /> your app up for success!
             </p>
           </div>
+          
+          
           <button className="join-button">Join</button>
         </div>
+      
       </div>
+  
       <div className="image-section"></div>
       <Footer></Footer>
 
@@ -37,4 +50,4 @@ const LandingPage = () => {
   );
 };
 
-export default LandingPage;
+export default LandingPage;
