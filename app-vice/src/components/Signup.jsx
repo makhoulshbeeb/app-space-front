@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./styles/SignUp.css";
-import image from "../image/bg_image.png";
+import image from "../image/signup.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faLock } from "@fortawesome/free-solid-svg-icons";
 import { useRegisterMutation } from "../api/AuthApi";

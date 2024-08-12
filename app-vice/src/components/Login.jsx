@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./styles/Login.css";
-import image from "../image/bg_image.png";
+import image from "../image/login.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faLock } from "@fortawesome/free-solid-svg-icons";
 import { useLoginMutation } from "../api/AuthApi";
@@ -26,7 +26,7 @@ const Login = () => {
       <div className="animated-circle"></div>
       <div className="auth_container">
         <div className="image_container">
-          <img src={image} className="image" alt="background" />
+          <img src={image} className="login_image" alt="background" />
         </div>
         <div className="auth_form">
           <p className="auth_title">Log In</p>
