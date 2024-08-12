@@ -2,40 +2,43 @@
 .navbar-container {
   display: flex;
   justify-content: center;
-  background-color: var(--background-color); 
-  padding: 20px 20px;
+  align-items: center;
+  background-color: transparent; 
+  padding: 1rem 4rem;
 }
 
 
 .navbar {
   width: 100%;
-  max-width: 1200px; 
-  padding: 10px 40px;
+  padding: 1rem 2rem;
   background: rgba(31, 43, 58, 0); 
   backdrop-filter: blur(30px); 
   border-radius: 12px; 
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+  box-shadow: 0 4px 4px 4px rgba(0, 0, 0, 0.2); 
   position: relative; 
   z-index: 1000; 
   height: 70px;
 }
 
 
-.logo img {
-  height: 20px;
+.logo {
+  height: 1.8rem;
+  object-fit: cover;
+
 }
 
 .nav-links {
   list-style: none;
   display: flex;
+  align-items: center;
   gap: 20px;
 }
 
 .nav-links li {
-  display: inline-block;
+  display: flex;
   color: #ffffff;
   font-size: 16px;
   font-weight: 500;
