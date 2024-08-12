@@ -1,0 +1,88 @@
+.app-list-container {
+    margin-left: 50px;
+    margin-right: 50px;
+    transition: 0.3s;
+    color: white;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    scrollbar-width: none; /* For Firefox */
+  }
+  .app-list-container::-webkit-scrollbar{
+    display: none;
+}
+
+  .app-list-container:hover {
+    white-space: nowrap;
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #969696 #e1e1e1;
+  }
+
+  .app-list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+
+  }
+  
+  .app-item {
+    display: inline-block;
+    text-align: center;
+    margin-right: 15px;
+  }
+  
+  .app-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  
+  .app-name {
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+  }
+  
+
+  .text {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .text h3 {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+    transition: 2s;
+
+  }
+  .text h3:hover {
+    cursor: pointer;
+    color: rgb(81, 189, 225);
+  }
+  .text p {
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration:  underline;
+    transition: 0.3s;
+
+  }
+  .text p:hover {
+    color: rgb(81, 189, 225);
+  }
+
+  .container {
+    height: 200px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 130px;
+  }
