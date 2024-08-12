@@ -5,10 +5,11 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
       <nav className="navbar">
+        
+        <ul className="nav-links">
         <div className="logo">
           <img src="/AppLogo.svg" alt="App Logo" />
         </div>
-        <ul className="nav-links">
           <li>Home</li>
           <li>Discover</li>
           <li>About Us</li>
