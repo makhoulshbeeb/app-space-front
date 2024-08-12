@@ -1,4 +1,4 @@
-svg{
+.app-item svg{
     width: 90px;
     height: 90px;
     object-fit: cover;
@@ -14,11 +14,11 @@ svg{
 
 }
 
-svg:hover path {
+app-item svg:hover path {
     fill: #D8D2ED;
 }
 
-svg:hover {
+.app-item svg:hover {
     background-color: #857f9d;
 }
 
