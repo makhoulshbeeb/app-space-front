@@ -1,0 +1,13 @@
+.app-page{
+    background-image: linear-gradient(to bottom, var(--background-color), var(--primary-color));
+    height: 100%;
+}
+.app-page-container{
+    padding: 0 16dvw;
+}
+.app-page-lower-half{
+    display: flex;
+    gap: 4rem;
+    justify-content: space-between;
+    padding: 4rem 0;
+}

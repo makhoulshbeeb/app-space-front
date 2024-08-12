@@ -1,6 +1,6 @@
 :root {
   --button-color: #50c5d8;
-  --background-color: #002b52;
+  --background-color: #011B32;
   --background-light: #d8d2ed;
   --shadow-color: rgba(0, 0, 0, 0.2);
   --shadow-light: rgba(255, 255, 255, 0.2);
@@ -12,6 +12,8 @@
   --animation-speed: 1;
 
   font-size: var(--font-size);
+  color: var(--text-color);
+
 }
 ::-webkit-scrollbar {
   width: 7.5px;
