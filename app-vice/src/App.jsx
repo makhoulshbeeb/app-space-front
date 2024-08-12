@@ -2,7 +2,6 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./components/Login";
 import AboutUs from "./components/AboutUs";
-import Footer from "./components/Footer";
 import ContactUs from "./components/ContactUs";
 import Signup from "./components/Signup";
 import Landing from "./components/LandingPage";
