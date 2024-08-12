@@ -1,0 +1,97 @@
+/* General Dashboard Layout */
+.dashboard {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.main-content {
+    margin-left: 250px;
+    margin-top: 80px;
+    padding: 20px;
+    background-color: #fff;
+    overflow-y: auto;
+}
+
+/* Profile Container */
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%; /* Ensure the container takes up the full width */
+}
+
+/* ProfileCard, PersonalInfo, BioSection, HelpSection */
+.profile-card, .personal-info, .bio-section, .help-section {
+    background-color: #EAF0F5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1; /* Ensure all sections have equal width */
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.personal-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 2; /* Allow more space for personal info */
+}
+
+/* Aligning PersonalDetails next to ProfileCard */
+.personal-info {
+    flex: 2;
+}
+
+.details-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.details-row p {
+    font-size: 16px;
+    color: #4B4B4B;
+}
+
+/* Bio Section */
+.bio-section {
+    margin-top: 20px;
+}
+
+.bio-section p {
+    margin-bottom: 20px;
+}
+
+/* Help Section */
+.help-section {
+    margin-top: 20px;
+    background-color: #D8D2ED;
+    text-align: center;
+}
+
+.help-section h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #011B32;
+}
+
+.help-section button {
+    background-color: #50C5D8;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.help-section button:hover {
+    background-color: #4B3577;
+    color: #fff;
+}

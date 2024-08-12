@@ -1,0 +1,93 @@
+.sidebar {
+    width: 250px;
+    height: 100vh; /* Full height */
+    background-color: #EAF0F5;
+    color: #011B32; /* Default text color */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space between top items and bottom items */
+    padding: 20px;
+    position: fixed; /* Keep it fixed on the left side */
+    left: 0;
+    top: 0;
+    overflow-y: auto; /* Scroll if content overflows */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #011B32; /* Logo text color */
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.nav-list li {
+    margin: 20px 0;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    color: #011B32; /* Link text color */
+}
+
+.nav-list li a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Ensure the link color inherits from the list item */
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-list li i {
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.nav-list li:hover {
+    background-color: #D8D2ED; /* Hover background color */
+    color: #4B3577; /* Hover text color */
+}
+
+/* Support and Logout positioning */
+.support-logout {
+    margin-top: auto; /* Push to the bottom */
+}
+
+.support-logout li {
+    margin: 15px 0; /* Add consistent margin */
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    color: #011B32;
+}
+
+.support-logout li a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.support-logout li i {
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.support-logout li:hover {
+    background-color: #D8D2ED;
+    color: #4B3577;
+}
