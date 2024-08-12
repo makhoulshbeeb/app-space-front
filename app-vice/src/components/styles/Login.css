@@ -30,14 +30,15 @@
   justify-content: space-between;
   position: relative;
   z-index: 2;
+  width:90%;
 }
 
 .image_container {
   width: 50%;
 }
 
-.image {
-  width: 60dvw;
+.login_image {
+  width: 40dvw;
 }
 
 .auth_form {
