@@ -1,0 +1,148 @@
+.contact-us-container {
+    padding: 50px 20px;
+    color: var(--text-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(180deg,
+     rgba(4, 18, 52, 0.9) 0%,
+     rgba(15, 31, 56, 0.9) 50%,
+     rgba(75, 53, 119, 0.9) 100%),
+     url('../../image/Group.png') no-repeat center center;
+    background-size: cover;
+}
+
+.contact-content {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.contact-illustration-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-illustration {
+    flex: 1;
+    text-align: center;
+}
+
+.contact-illustration img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-heading {
+    flex: 1;
+    padding-left: 30px;
+}
+
+.contact-heading h2 {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+.contact-heading p {
+    font-size: 1.25rem;
+    color: var(--text-light);
+    margin-bottom: 20px;
+}
+
+
+.contact-form-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px var(--shadow-color);
+    backdrop-filter: blur(10px);
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-input, .form-textarea {
+    width: 48%;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid var(--shadow-light);
+    background-color: rgba(255, 255, 255, 0.9);
+    color: var(--primary-color);
+}
+
+.form-textarea {
+    width: 100%;
+    min-height: 120px;
+}
+
+.btn-submit, .btn-reset {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: var(--font-size);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-submit {
+    background-color: #4b3577;
+    color: white;
+}
+
+
+
+.btn-reset {
+    background-color: #223063;
+    color: white;
+    margin-left: 10px;
+}
+
+
+.form-actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .contact-illustration-text {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    
+    .form-group {
+        flex-direction: column;
+    }
+
+    .form-input, .form-textarea {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .form-actions {
+        justify-content: center;
+    }
+}

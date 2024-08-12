@@ -1,0 +1,19 @@
+.related-apps{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-width: 264px;
+}
+.related-apps-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    width:100%;
+}
+.related-apps-grid > img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
