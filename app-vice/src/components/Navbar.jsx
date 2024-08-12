@@ -7,9 +7,7 @@ const Navbar = () => {
       <nav className="navbar">
         
         <ul className="nav-links">
-        <div className="logo">
-          <img src="/AppLogo.svg" alt="App Logo" />
-        </div>
+          <img src="/AppLogo.svg" alt="App Logo" className="logo"/>
           <li>Home</li>
           <li>Discover</li>
           <li>About Us</li>
