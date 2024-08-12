@@ -67,6 +67,8 @@ export const appsApi = createApi({
 export const {
     useGetAllAppsQuery,
     useGetAppByIdQuery,
+    useGetAppsByCategoryQuery,
+    useGetAppsBySearchQuery,
     useCreateAppMutation,
     useUpdateAppMutation,
     useDeleteAppMutation
