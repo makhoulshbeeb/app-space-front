@@ -1,0 +1,20 @@
+body{
+    overflow-y: scroll;
+    background-image: linear-gradient(#002B52, #4B3577);  
+    background-attachment: fixed;
+  }
+
+  .title{
+    color: #FFFFFF;
+    font-weight: 700px;
+    font-size: 35px;
+    margin: 20px;
+    margin-left: 100px;
+    overflow: auto;
+  }
+
+  .discover {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
